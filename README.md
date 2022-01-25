@@ -1,0 +1,2 @@
+# INFCoin
+Inflation Coin
