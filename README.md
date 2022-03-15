@@ -1,4 +1,4 @@
-# Inflation Rate Coin
+# Inflation Rate Coin or INFR
 
 In the last year alone, inflation has risen by 7% according to the Consumer Price Index, or CPI.
 For our project, we created an ERC20 coin called INFCoin. We also created an INFCrowdSale to allow users to purchase tokens.  INFCoin, or Inflation Coin, uses the percent change in CPI to adjust the amount of the holder's tokens. The tokens are added or subtracted monthly, depending on if inflation increases or decreases.
