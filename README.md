@@ -27,4 +27,4 @@ In the next step we checked the inflation and checked to see our tokens increase
 Finally, we added INFCoin to our metamask wallet.
 <img width="1297" alt="Add INF to Metamask " src="https://user-images.githubusercontent.com/87285522/149604588-f9386d85-fef5-4b4b-a560-7576d14433a3.png">
 <br>
-Inflation Coin is a store of value for your fiat currency that hedges against inflation, something your bank does not do.
+Inflation Coin is a store of value that hedges against inflation, by maintaining the purchasing power of your investment.  Something your bank currently does not do!
