@@ -1,5 +1,3 @@
-# INFCoin
-
 # Inflation Coin
 
 Inflation, by definition, is a general increase in prices and fall in the purchasing value of money. In the last year alone, inflation has risen by 7% according to the Consumer Price Index, or CPI.
