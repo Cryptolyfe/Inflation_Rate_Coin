@@ -3,10 +3,10 @@
 In the last year alone, inflation has risen by 7% according to the Consumer Price Index, or CPI.
 <br>
 <br>
-For our project, we created an ERC20 coin called INFCoin. We also created an INFCrowdSale to allow users to purchase tokens.  INFCoin, or Inflation Coin, uses the percent change in CPI to adjust the amount of the holder's tokens. The tokens are added or subtracted monthly, depending on if inflation increases or decreases.
+INFCoin, or Inflation Coin, uses the percent change in CPI to adjust the amount of the holder's tokens. The tokens are added or subtracted monthly, depending on if inflation increases or decreases.
 <br>
 <br>
-For INFCoin, we created an ERC20 coin that includes a check inflation function.  The check inflation function checks for the percent change in inflation and then loops though an array of the current token holders, to add or subtract the tokens based on the inflation rate, to each token holder’s balance. This coin is a hedge against inflation.
+We created an ERC20 coin that includes a check inflation function.  The check inflation function checks for the percent change in inflation and then loops though an array of the current token holders, to add or subtract the tokens based on the inflation rate, to each token holder’s balance. This coin is a hedge against inflation.
 Our coin is currently a proof of concept, as we still need to add an oracle to check inflation programmatically instead of manually.
 <br>
 <br>
@@ -25,7 +25,7 @@ Then, we deployed the contract for the crowdsale using the token sale address ge
 <img width="1433" alt="INFCoin Crowdsale w:Token sale address" src="https://user-images.githubusercontent.com/87285522/149603764-3ef5531c-46f5-4fa2-a573-b951707bca65.png">
 <br>
 <br>
-Following this, we purchased 1 ether's worth of tokens to our ganache wallet.
+Following this, we purchased 1 ether's worth of tokens to our Ganache wallet.
 <br>
 <br>
 <img width="1432" alt="Buy Tokens at Ganache Address" src="https://user-images.githubusercontent.com/87285522/149603880-ccfaa5ef-bc33-45e5-b156-b7d4d08e704b.png">
@@ -37,7 +37,7 @@ Next, we deployed our INFCoin contract using our token address.
 <img width="1435" alt=" INFCOIN contract w:token address" src="https://user-images.githubusercontent.com/87285522/149603964-be6c4b31-a067-4cd6-a7af-096edb3beab2.png">
 <br>
 <br>
-Once the INFCoin contract was deployed, we checked our ganache account balance.
+Once the INFCoin contract was deployed, we checked our Ganache account balance.
 <br>
 <br>
 <img width="1434" alt="check balance of Ganache acct" src="https://user-images.githubusercontent.com/87285522/149603985-632991f2-429d-4cfa-94c9-e34f471f0c02.png">
