@@ -58,3 +58,4 @@ Finally, we added INFCoin to our metamask wallet.
 Inflation Coin is a store of value that hedges against inflation, by maintaining the purchasing power of your investment.  Something your bank currently does not do!
 <br>
 <br>
+
