@@ -12,7 +12,7 @@ INFR is currently a proof of concept, as we still need to add an oracle to check
 We also intend to refactor the code to be more secure and efficient.  Inlcuding changing the array to a mapping in order to make the contract more gas efficient. 
 
 
- # Update: COINBASE realeased the exact same concept over a year after this repo was published.  They deemed the tokens "flat coins" and called it a "critical innovation"
+ ## Update: COINBASE realeased the exact same concept over a year after this repo was published.  They deemed the tokens "flat coins" and called it a "critical innovation"
 
 
 <br>
