@@ -1,13 +1,20 @@
 # Inflation Rate Coin or INFR
 
-In the last year alone, inflation has risen by 7% according to the Consumer Price Index, or CPI.
+In the last year alone, inflation has risen by a staggering 7% according to the Consumer Price Index(CPI).
 <br>
 <br>
-INFCoin, or Inflation Coin, uses the percent change in CPI to adjust the amount of the holder's tokens. The tokens are added or subtracted monthly, depending on if inflation increases or decreases.
+INFCoin, or Inflation Coin, uses the percent change (pct_change) in CPI to adjust the amount of the holder's tokens. The tokens are added or subtracted monthly, depending on if inflation increases or decreases.
 <br>
 <br>
 We created an ERC20 coin that includes a check inflation function.  The check inflation function checks for the percent change in inflation and then loops though an array of the current token holders, to add or subtract the tokens based on the inflation rate, to each token holder’s balance. This coin is a hedge against inflation.
 Our coin is currently a proof of concept, as we still need to add an oracle to check inflation programmatically instead of manually.
+We also intend to update the array to a mapping in order to make the contract more gas efficient. 
+
+
+
+*** Update: COINBASE realeased the exact same concept over a year after this repo was published.  They deemed the tokens "flat coins" and called it a "critical innovation" ***
+
+
 <br>
 <br>
 To demonstrate:
