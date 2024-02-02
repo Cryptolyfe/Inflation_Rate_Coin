@@ -13,7 +13,7 @@ We also intend to refactor the code to be more secure and efficient.  Inlcuding 
 
 
 
-*** Update: COINBASE realeased the exact same concept over a year after this repo was published.  They deemed the tokens "flat coins" and called it a "critical innovation" ***
+*** # Update: COINBASE realeased the exact same concept over a year after this repo was published.  They deemed the tokens "flat coins" and called it a "critical innovation" ***
 
 
 <br>
