@@ -31,7 +31,7 @@ Then, we deployed the contract for the crowdsale using the token sale address ge
 <img width="1433" alt="INFCoin Crowdsale w:Token sale address" src="https://user-images.githubusercontent.com/87285522/149603764-3ef5531c-46f5-4fa2-a573-b951707bca65.png">
 <br>
 <br>
-Following this, we purchased 1 ether's worth of tokens to our Ganache wallet.
+Following this, we purchased 1 ether's worth of tokens on Ganache's local network which has been added to Metamask.
 <br>
 <br>
 <img width="1432" alt="Buy Tokens at Ganache Address" src="https://user-images.githubusercontent.com/87285522/149603880-ccfaa5ef-bc33-45e5-b156-b7d4d08e704b.png">
