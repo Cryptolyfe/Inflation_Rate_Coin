@@ -47,7 +47,7 @@ function checkInflation(uint newCPI) public {
     for (uint i = 0; i < tokenHolders.length; i++){
         // obtain balance of account
         // calculate increase
-        uint balance = balanceOf(tokenHolders[i]); // replace 0 with actu
+        uint balance = balanceOf(tokenHolders[i]); // replace 0 with actual CPI
         uint increase = pctChange * balance;
         // mint coins
         mint(tokenHolders[i], increase);
