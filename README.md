@@ -49,7 +49,7 @@ Once the INFCoin contract was deployed, we checked our Ganache account balance.
 <img width="1434" alt="check balance of Ganache acct" src="https://user-images.githubusercontent.com/87285522/149603985-632991f2-429d-4cfa-94c9-e34f471f0c02.png">
 <br>
 <br>
-In the next step we checked the inflation and checked to see our tokens increased.
+In the next step we checked the inflation rate and then confirmed our tokens increased.
 <br>
 <br>
 <img width="1431" alt="check inflation and check adjusted balance" src="https://user-images.githubusercontent.com/87285522/149604092-b83b3ecc-5a7d-4083-8134-7ead5a2c987b.png">
