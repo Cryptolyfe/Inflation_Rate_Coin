@@ -1,7 +1,10 @@
 pragma solidity ^0.5.0;
+
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/token/ERC20/ERC20.sol";
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/token/ERC20/ERC20Detailed.sol";
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/token/ERC20/ERC20Mintable.sol";
+
+
 contract INFCoin is ERC20, ERC20Detailed, ERC20Mintable {
    uint fakenow = now;
    uint public lastCPI = 100;
@@ -22,17 +25,21 @@ contract INFCoin is ERC20, ERC20Detailed, ERC20Mintable {
         // constructor can stay empty
         //owner = _owner;
     }
+
 function fastforward() public {
     fakenow += 30 days;
 }
+
 modifier onlyOwner() {
     require(msg.sender == owner, "NO COINS FOR YOU! GAME OVER");
     _;
 }
+
 modifier dateValid() {
     require(unlock_time < fakenow, "NO COINS AT THIS TIME - TRY LATER");
     _;
 }
+
 function checkInflation(uint newCPI) public {
         unlock_time = fakenow + 30 days;
         uint cpiDiff = newCPI -lastCPI;
@@ -47,6 +54,7 @@ function checkInflation(uint newCPI) public {
     }
     lastCPI = newCPI;
   }
+
   function addHolder(address holder) public {
     tokenHolders.push(holder);
   }
