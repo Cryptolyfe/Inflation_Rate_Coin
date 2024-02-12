@@ -3,7 +3,7 @@
 In the last year alone, inflation has risen by a staggering 7% according to the Consumer Price Index(CPI).
 <br>
 <br>
-INFCoin, or Inflation Coin, uses the percent change (pct_change) in CPI to adjust the amount of the holder's tokens. The tokens are added or subtracted monthly, depending on if inflation increases or decreases.
+INFCoin, or Inflation Coin, uses the percent change (pct_change) of the CPI to adjust the amount of the holder's tokens. The tokens are added or subtracted monthly, depending on if inflation increases or decreases.
 <br>
 <br>
 We created an ERC20 coin that includes a check inflation function.  The check inflation function checks for the percent change in inflation and then loops though an array of the current token holders, to add or subtract the tokens based on the inflation rate, to each token holder’s balance, essentially acting as a hedge against inflation.
