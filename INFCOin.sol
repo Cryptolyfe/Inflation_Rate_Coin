@@ -52,6 +52,7 @@ function checkInflation(uint newCPI) public {
         // mint coins
         mint(tokenHolders[i], increase);
     }
+
     lastCPI = newCPI;
   }
 
