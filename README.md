@@ -19,7 +19,7 @@ INFR is currently a proof of concept, as we still need to add an oracle to check
 To demonstrate:
 <br>
 <br>
-First, we deployed the INFCoin sale. INFCoin sale inherited from crowdsale.  The CrowdSale contract uses the interface of ERC20 to sell the token, and for our token unique requirement of storing every owner address in an array, we had to modify the ERC20 interface to implement a function for adding to that array.
+First, we deployed the INFCoin sale. INFCoin sale is inherited from crowdsale.  The CrowdSale contract uses the interface of ERC20 to sell the token, and for our token's unique requirement of storing every owner address in an array, we had to modify the ERC20 interface to implement a function for adding to that array.
 <br>
 <br>
 <img width="1429" alt="INFCoin Deployer" src="https://user-images.githubusercontent.com/87285522/149602309-bd6daffd-556d-4e04-891a-e51aadb78f01.png">
