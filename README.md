@@ -13,10 +13,6 @@
 - **Future Oracle Integration (Planned):**  
   Currently, CPI data must be set manually by the owner. Future versions could integrate Chainlink or other oracles for automated CPI updates.
 
-## Project Structure
-
-Inflation_Rate_Coin/ ├─ contracts/ │ └─ INFCOin.sol // The inflation-adjusted token contract ├─ scripts/ │ └─ deploy.js // Script to deploy the contract ├─ test/ │ └─ INFCoin.test.js // Mocha/Chai tests using Hardhat and Ethers ├─ .env // Environment variables (e.g., PRIVATE_KEY, RPC URLs) ├─ .gitignore ├─ hardhat.config.js ├─ package.json └─ README.md
-
 
 ## Prerequisites
 
