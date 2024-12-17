@@ -1,0 +1,22 @@
+{
+  "name": "inflation_rate_coin",
+  "version": "1.0.0",
+  "description": "In the last year alone, inflation has risen by a staggering 7% according to the Consumer Price Index(CPI). <br> <br> INFCoin, or Inflation Coin, uses the percent change (pct_change) of the CPI to adjust the amount of the holder's tokens. The tokens are added or subtracted monthly, depending on if inflation increases or decreases. <br> <br> We created an ERC20 token that includes a check inflation function, that checks for the percent change in inflation(CPI) and then loops though an array of the current token holders, to add or subtract the tokens based on the inflation rate, to each token holder’s balance, essentially acting as a hedge against inflation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "ethers": "^6.13.4",
+    "hardhat": "^2.22.17"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.3",
+    "dotenv": "^16.4.7"
+  }
+}
